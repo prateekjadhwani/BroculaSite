@@ -180,7 +180,9 @@ h2 {
 }
 
 /* mobile */
-@media only screen and (max-width: 812px) { 
+@media only screen 
+    and (min-width: 320px)  
+    and (max-width: 812px) { 
     .brocula-email-container {
         display: block;
     }
@@ -204,7 +206,8 @@ h2 {
 }
 
 /* desktop and tablets */
-@media only screen and (min-width: 813px) { 
+@media only screen 
+    and (min-width: 813px) { 
     .brocula-email-container {
         display: inline-block;
     }
@@ -249,7 +252,7 @@ h2 {
     color: var(--color6);
 }
 
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 813px) {
     #mc_embed_signup {
         padding: 30px;
     }
