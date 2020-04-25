@@ -183,24 +183,33 @@ h2 {
 @media only screen 
     and (min-width: 320px)  
     and (max-width: 812px) { 
+    .brocula-logo {
+        width: 320px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    .brocula-release-date {
+        padding-top: 50px;
+    }
     .brocula-email-container {
         display: block;
     }
     .brocula-release-text {
-        font-size: 24px;
+        font-size: 12px;
     }
 
     .brocula-release-icons img {
-        height: 100px;
+        padding: 20px;
     }
     .brocula-description {
-        font-size: 26px;
+        font-size: 12px;
     }
     .brocula-creator {
         flex-direction: column;
     }
     .brocula-creator img {
-        height: 400px;
+        height: 200px;
         margin-top: 50px;
     }
 }
