@@ -184,7 +184,8 @@ h2 {
     and (min-width: 320px)  
     and (max-width: 812px) { 
     .brocula-logo {
-        width: 320px;
+        max-width: 100%;
+        min-width: 100%;
     }
     h2 {
         font-size: 18px;
@@ -198,7 +199,6 @@ h2 {
     .brocula-release-text {
         font-size: 12px;
     }
-
     .brocula-release-icons img {
         padding: 20px;
     }
