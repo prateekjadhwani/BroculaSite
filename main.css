@@ -149,6 +149,7 @@ h2 {
 
 .brocula-release-icons img {
     height: 40px;
+    padding: 50px;
 }
 
 .brocula-description p {
@@ -179,14 +180,31 @@ h2 {
 }
 
 /* mobile */
-@media only screen and (max-width: 719px) { 
+@media only screen and (max-width: 812px) { 
     .brocula-email-container {
         display: block;
+    }
+    .brocula-release-text {
+        font-size: 24px;
+    }
+
+    .brocula-release-icons img {
+        height: 100px;
+    }
+    .brocula-description {
+        font-size: 26px;
+    }
+    .brocula-creator {
+        flex-direction: column;
+    }
+    .brocula-creator img {
+        height: 400px;
+        margin-top: 50px;
     }
 }
 
 /* desktop and tablets */
-@media only screen and (min-width: 720px) { 
+@media only screen and (min-width: 813px) { 
     .brocula-email-container {
         display: inline-block;
     }
