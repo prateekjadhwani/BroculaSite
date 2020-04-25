@@ -1,0 +1,248 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(./fonts/ThaleahFat.ttf);
+}
+
+:root {
+    --color1: #312e2f;
+    --color2: #635c5a;
+    --color3: #81776b;
+    --color4: #c6b5a5;
+    --color5: #ffedd4;
+    --color6: #96567a;
+    --color7: #aed7b9;
+}
+
+
+.color1 {
+    color: var(--color1);
+}
+.color2 {
+    color: var(--color2);
+}
+.color3 {
+    color: var(--color3);
+}
+.color4 {
+    color: var(--color4);
+}
+.color5 {
+    color: var(--color5);
+}
+.color6{
+    color: var(--color6);
+}
+.color7 {
+    color: var(--color7);
+}
+
+body, html {
+    background-color: var(--color1);
+    padding: 0;
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+    line-height: 2;
+}
+
+.brocula-logo {
+    max-width: 500px;
+    min-width: 500px;
+}
+
+.brocula-heading-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.brocula-heading-container h1 {
+    margin-bottom: 0;
+}
+
+.brocula-heading-container h2 {
+    margin-top: 0;
+}
+
+h1 {
+    color: var(--color6);
+}
+
+h2 {
+    color: var(--color5);
+}
+
+.brocula-sticky-container {
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+
+.brocula-sticky-container-bottom {
+    position: sticky;
+    bottom: 0;
+}
+
+.brocula-screen-1 {
+    background-color: var(--color1);
+    height: 70vh;
+}
+
+.brocula-screen-2 {
+    background-color: var(--color1);
+    height: 90vh;
+    top: 90vh;
+    overflow-y: scroll;
+}
+
+.brocula-video-foreground, .brocula-video-foreground video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: -99;
+    object-fit: cover;
+    filter: opacity(0.7);
+}
+
+.brocula-description {
+    color: var(--color7);
+    font-size: 13px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 50px 0 50px;
+}
+
+.brocula-creator {
+    display: flex;
+    align-items: center;
+}
+
+.brocula-creator img {
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+.brocula-copyright {
+    color: var(--color2);
+    font-size: 10px;
+    padding: 5px;
+    margin: 50px auto 20px;
+    text-align: center;
+}
+
+.brocula-release-date {
+    color: var(--color7);
+}
+
+.brocula-release-platforms {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    color: var(--color4);
+}
+
+.brocula-release-text {
+    font-size: 12px;
+}
+
+.brocula-release-icons img {
+    height: 40px;
+}
+
+.brocula-description p {
+    margin-top: 20px;
+}
+
+.brocula-text--center {
+    padding: 10px;
+    text-align: center;
+}
+
+.brocula-email-subcribtion-close-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: var(--color1);
+    color: var(--color5);
+    border-radius: 50%;
+    font-size: 48px;
+    height: 46px;
+    width: 46px;
+    font-family: myFirstFont;
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+/* mobile */
+@media only screen and (max-width: 719px) { 
+    .brocula-email-container {
+        display: block;
+    }
+}
+
+/* desktop and tablets */
+@media only screen and (min-width: 720px) { 
+    .brocula-email-container {
+        display: inline-block;
+    }
+}
+
+
+/*Email SIgnup Overtides*/
+
+#mc_embed_signup {
+    background-color: var(--color5);
+    padding: 20px;
+}
+
+#mce-EMAIL {
+    box-sizing: border-box;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    font-size: 15px;
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 25px;
+}
+
+#mc-embedded-subscribe {
+    box-sizing: border-box;
+    width: 100%;
+    border: none;
+    font-size: 15px;
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 10px;
+    padding: 15px;
+    background-color: var(--color2);
+    color: var(--color5);
+    cursor: pointer;
+}
+
+#mc-embedded-subscribe:hover {
+    background-color: var(--color1);
+}
+
+.twitter-follow-button {
+    color: var(--color6);
+}
+
+@media only screen and (min-width: 720px) {
+    #mc_embed_signup {
+        padding: 30px;
+    }
+
+    #mce-EMAIL {
+        width: 50vw;
+        box-sizing: content-box;
+    }
+
+    #mc-embedded-subscribe {
+        width: 30vw;
+        box-sizing: content-box;
+    }
+}
