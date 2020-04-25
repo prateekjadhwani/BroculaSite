@@ -211,6 +211,7 @@ h2 {
     .brocula-creator img {
         height: 200px;
         margin-top: 50px;
+        margin-right: 0;
     }
 }
 
