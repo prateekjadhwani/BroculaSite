@@ -16,6 +16,7 @@
     --color5: #ffedd4;
     --color6: #96567a;
     --color7: #aed7b9;
+    --color8: #5b546c;
 }
 
 
@@ -78,8 +79,10 @@ h2 {
 
 .brocula-sticky-container {
     height: 100vh;
-    position: sticky;
-    top: 0;
+}
+
+.brocula-sticky-container-auto-height {
+    height: auto;
 }
 
 .brocula-sticky-container-bottom {
@@ -89,22 +92,40 @@ h2 {
 
 .brocula-screen-1 {
     background-color: var(--color1);
-    height: 70vh;
+    position: relative;
+}
+
+.brocula-screen-1 h1,
+.brocula-screen-1 h2,
+.brocula-screen-1 div {
+    z-index: 1;
 }
 
 .brocula-screen-2 {
     background-color: var(--color1);
     height: auto;
-    top: 90vh;
+    padding-bottom: 50px;
+}
+
+.brocula-screen-3 {
+    background-color: var(--color8);
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.brocula-screen-4 {
+    background-color: var(--color7);
+    height: auto;
+    padding-bottom: 50px;
 }
 
 .brocula-video-foreground, .brocula-video-foreground video {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     height: 100vh;
     width: 100vw;
-    z-index: -99;
+    z-index: 0 !important;
     object-fit: cover;
     filter: opacity(0.7);
 }
@@ -336,6 +357,7 @@ h2 {
 .brocula-image-slider { 
     overflow: hidden; 
     width: 100%;
+    padding-top: 50px;
 }
 .brocula-image-slider figure img { 
     width: 5%; float: left; 
@@ -348,4 +370,20 @@ h2 {
     text-align: left;
     font-size: 0;
     animation: 100s slidy infinite; 
+}
+
+.brocula-social-media__container {
+    padding: 50px 0;
+    display: flex;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.brocula-social-media__info {
+    flex: 1;
+    text-align: center;
+}
+
+.brocula-social-media__info img{
+    height: 100px;
 }
