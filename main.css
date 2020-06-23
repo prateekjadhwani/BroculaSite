@@ -387,3 +387,11 @@ h2 {
 .brocula-social-media__info img{
     height: 100px;
 }
+
+.brocula-social-media__info.top img{
+    height: 25px;
+}
+
+.brocula-social-media__container.top {
+    width: 75px;
+}
