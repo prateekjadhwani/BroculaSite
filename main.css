@@ -173,8 +173,9 @@ h2 {
 }
 
 .brocula-release-icons img {
-    height: 40px;
+    width: 300px;
     padding: 50px;
+    cursor: pointer;
 }
 
 .brocula-description p {
