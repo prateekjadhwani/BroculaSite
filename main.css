@@ -17,6 +17,7 @@
     --color6: #96567a;
     --color7: #aed7b9;
     --color8: #5b546c;
+    --color9: #508657;
 }
 
 
@@ -91,8 +92,9 @@ h2 {
 }
 
 .brocula-screen-1 {
-    background-color: var(--color1);
+    background-color: var(--color9);
     position: relative;
+    overflow: hidden;
 }
 
 .brocula-screen-1 h1,
@@ -416,4 +418,81 @@ h2 {
 
 .brocula-social-media__container.top {
     width: 75px;
+}
+
+.brocula-bg-image {
+    position: absolute;
+}
+
+.brocula-butcher-gif {
+    top: 150px;
+    left: 100px;
+}
+
+.brocula-tree-01 {
+    top: -86px;
+    left: 45px;
+}
+
+.brocula-tree-02 {
+    top: 200px;
+    right: 20px;
+}
+
+.brocula-tree-03 {
+    bottom: -196px;
+    left: 253px;
+}
+
+.brocula-tree-04 {
+    top: -162px;
+    right: 200px;
+}
+
+.brocula-brocula-walk-shadow {
+    top: calc(40% + 140px);
+    left: calc(40% + 10px);
+}
+.brocula-brocula-gif {
+    top: 40%;
+    left: 40%;
+}
+
+.brocula-carpet {
+    bottom: -88px;
+    left: 33px;
+}
+
+.brocula-trunk {
+    bottom: 11px;
+    left: 92px;
+}
+
+.brocula-witch-walk-shadow {
+    top: 102px;
+    right: 80px;
+}
+.brocula-witch-gif {
+    top: 0;
+    right: 80px;
+}
+
+.brocula-grass-01 {
+    top: 212px;
+    left: 356px;
+}
+
+.brocula-grass-02 {
+    top: 334px;
+    left: 592px;
+}
+
+.brocula-grass-03 {
+    top: -41px;
+    left: 415px;
+}
+
+.brocula-grass-04 {
+    top: 158px;
+    right: 50px;
 }
