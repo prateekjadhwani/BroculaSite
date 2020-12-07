@@ -121,6 +121,12 @@ h2 {
     padding-bottom: 50px;
 }
 
+.brocula-screen-6 {
+    background-color: var(--color7);
+    height: auto;
+    padding-bottom: 0;
+}
+
 .brocula-video-foreground, .brocula-video-foreground video {
     position: absolute;
     top: 0;
@@ -227,8 +233,8 @@ h2 {
     }
 
     .brocula-logo {
-        max-width: 100%;
-        min-width: 100%;
+        max-width: 80%;
+        min-width: 80%;
     }
     h2 {
         font-size: 18px;
@@ -459,12 +465,12 @@ h2 {
 }
 
 .brocula-carpet {
-    bottom: -88px;
+    top: 416px;
     left: 33px;
 }
 
 .brocula-trunk {
-    bottom: 11px;
+    top: 436px;
     left: 92px;
 }
 
@@ -495,4 +501,11 @@ h2 {
 .brocula-grass-04 {
     top: 158px;
     right: 50px;
+}
+
+.full-width {
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+    bottom: -10px;
 }
