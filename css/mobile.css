@@ -1,0 +1,78 @@
+@media only screen and (max-width: 767px) {
+    .aspect-ratio {
+      max-width: 100%;
+    }
+    .screenshots .grid-container {
+        padding-inline: 0px;
+    }
+    .logos-container img {
+      display: none;
+    }
+
+   .flex-center {
+      flex-direction: column ;
+    }
+
+    .flex-center input {
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+
+    .screenshots {
+      padding: 20px;
+    }
+
+
+    .hero-section {
+      
+      height: 75vh;
+      
+    }
+
+    .form-group {
+      margin-inline: 0rem;
+    }
+
+    .form-control {
+      padding: 5px;
+      width: 80%;
+    }
+
+    .form-textarea {
+      width: 80%;
+    }
+
+    iframe {
+      display: block;
+      margin: auto;
+      width: 90%;
+      height: 250px;
+    }
+
+    
+}
+
+
+@media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  }
