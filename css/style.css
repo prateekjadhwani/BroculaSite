@@ -154,6 +154,11 @@ iframe {
     margin: 0 10px;
     
   }
+
+  .logos-group a {
+    outline: none;
+    cursor: pointer;
+  }
   
   .widget-container {
     position: absolute;
