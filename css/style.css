@@ -376,9 +376,16 @@ iframe {
 
 
   .custom-large-button {
-    width: 200px;
     border-radius: 10px;
-    height: 50px;
+    width: 300px;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .keymailer-image {
+    width: 320px;
   }
 
   .info-image {
