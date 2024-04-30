@@ -125,6 +125,15 @@ iframe {
     left: 50%;
     transform: translateX(-50%);
   }
+
+  .logo-container.top-center p {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 100;
+    background-color: black;
+  }
   
   .logos-container.bottom-center {
     display: flex;
@@ -194,14 +203,35 @@ iframe {
   line-height: 1;
 }
 
-#storyline {
+#release-dates-bg {
+  background-color: #c6e6ca;
+  color: #000;
+}
+
+#release-dates-bg img {
+  height: 50px;
+}
+
+#release-dates-bg p {
+  display: flex;
+  align-items: center;
+  font-size: xx-large;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+}
+#release-dates-bg span {
+  margin-left: 20px;
+}
+
+#storyline, #release-dates {
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
 
-#storyline h1 {
+#storyline h1, #release-dates h1 {
   font-size: 50px;
   margin: 0;
   line-height: 1;
