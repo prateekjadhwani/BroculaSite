@@ -133,6 +133,31 @@ function appendContent() {
         link.append(linkTextArea);
       }
 
+       // link section
+      if (typeof projectDetails.keysForReview !== "undefined") {
+        var keysForReview = document.createElement("div");
+        keysForReview.classList.add("section");
+        keysForReview.id = "keysForReview";
+        conteiner.append(keysForReview);
+
+        var keysForReviewTitle = document.createElement("div");
+        keysForReviewTitle.classList.add("section_title");
+        keysForReviewTitle.innerHTML = "📺 Press Review Copy on KeyMailer";
+        keysForReview.append(keysForReviewTitle);
+
+        var keysForReviewButtons = document.createElement("div");
+        keysForReviewButtons.classList.add("buttons");
+        keysForReview.append(keysForReviewButtons);
+
+        keysForReviewButtons.append(getClipboardButton());
+
+        var keysForReviewTextArea = document.createElement("textarea");
+        keysForReviewTextArea.readOnly = true;
+        keysForReviewTextArea.classList.add("text_box");
+        keysForReviewTextArea.append(projectDetails.keysForReview);
+        keysForReview.append(keysForReviewTextArea);
+      }
+
       // creators section
       if (typeof projectDetails.creators !== "undefined") {
         var creators = document.createElement("div");
